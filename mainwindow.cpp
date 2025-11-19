@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->stackedWidget->setCurrentIndex(0);
     _shitButton = new QPushButton(this);
     _shitButton->resize(shitW, shitH);
-    _shitButton->setStyleSheet("boarder : 5px;");
+    _shitButton->setStyleSheet("boarder : 1px;");
     _trShit = new QTimer();
     _intervalShit = 1000;
     _trShit->setInterval(_intervalShit);
